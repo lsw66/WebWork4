@@ -1,0 +1,244 @@
+@CHARSET "UTF-8";
+body{
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(to left, rgba( 255 228 225), rgba(230 230 250));
+				margin-right: 0px;
+				margin-left: 0px;
+
+}				
+
+#header{
+	width: 100%;
+	height: 100px;
+	background-color:  linear-gradient(to left, rgba(255 228 225), rgba(230 230 250));
+}
+#header_tupian{
+	width: 45%;
+	height:70px;
+	float: left;
+	margin-top: 20px ;
+	margin-left: 5px;
+}
+
+#header_word{
+	width: 50%;
+	height:90px;
+	float: right;
+}
+
+#p{
+	width:100%;
+	height: 40%;
+	text-align: right;
+	letter-spacing:2px;
+}
+
+#header_p_a{
+	text-decoration : none;
+	letter-spacing:2px;
+}			
+#con{
+	width: auto;
+	height: 50px;
+	margin-left: 100px;
+	}
+#li{
+	display: block;
+	margin: 0 0 0 25px;
+	float: left;
+}
+.a1{
+	text-decoration: none;
+	color: black;
+	font-size: 27px;
+}
+
+#line{
+	width: 100%;
+	height: 10px;
+	background-color: bisque;
+}
+
+
+#pageBody{
+	margin-top: 20px;
+    margin-left: 20%;
+	margin-right: 10%;
+	background-color: cadetblue;
+}
+#search{
+	width: 1200px;
+    height: 45px;
+	display: block;
+	padding-top: 10px;
+    padding-left: 10px;
+}
+#searchForm{
+	float: left;
+}
+#bt{
+	width: 300px;
+    float: left;
+    margin-left: 20px;
+}
+.pageBody_bt_a{
+	text-decoration: none;
+    color: inherit;
+    padding-right: 4px;
+    border: black 1px solid;
+    padding: 0 4px 0 4px;
+    margin-right: 10px;
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    background-color: cornsilk;
+}
+
+.paging{
+	display: inline-block;
+    margin-top: 10px;
+    margin-left: 11px;
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+}
+.pageSize{
+	float: left;
+}
+.pageNav{
+	float: left;
+    margin-left: 500px;
+}
+.paging_pageNav_a{
+	text-decoration: none;
+    color: black;
+}
+
+.tr_even{
+	background-color: darkgray;
+}
+.tr_odd{
+	background-color: floralwhite;
+}
+
+
+.black_overlay{
+	display: none;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(187,184,184);
+	z-index: 1001;
+	-moz-opacity:0.7;
+	opacity: 0.7;
+}
+
+.white_content{
+	display: none;
+	position: absolute;
+	left:20%;
+	top: 15%;
+	width: 500px;
+	border:6px solid lightblue;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+
+
+#h_username{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/use.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+
+}
+
+#h_chrname{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/use.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+}
+	
+#h_email{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/email.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+}
+#h_province{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/province.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+}
+#h_city{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/province.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+}
+#h_password{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/aaa.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+}
+#h_rpassword{
+	width: 200px;
+	height: 25px;
+	margin: 6px 150px 0px 120px;
+	Border:2px solid;
+	background-image: url(../images/aaa.png);
+	background-size: 25px 25px;
+	background-position: 5px 4px;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 40px;
+	border:1px solid #ddd ;
+}
+.warn{
+	margin: 2px 0px 0px 120px;
+	visibility: hidden;
+}
+.warn.error{
+	visibility: visible;
+}
